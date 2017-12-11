@@ -1,0 +1,8 @@
+src/caffe/layers/image_seg_data_layer.cpp: In instantiation of ‘void caffe::ImageSegDataLayer<Dtype>::DataLayerSetUp(const std::vector<caffe::Blob<Dtype>*>&, const std::vector<caffe::Blob<Dtype>*>&) [with Dtype = float]’:
+src/caffe/layers/image_seg_data_layer.cpp:269:1:   required from here
+src/caffe/layers/image_seg_data_layer.cpp:93:13: warning: unused variable ‘channels2’ [-Wunused-variable]
+   const int channels2 = cv_img2.channels();
+             ^
+src/caffe/layers/image_seg_data_layer.cpp: In instantiation of ‘void caffe::ImageSegDataLayer<Dtype>::DataLayerSetUp(const std::vector<caffe::Blob<Dtype>*>&, const std::vector<caffe::Blob<Dtype>*>&) [with Dtype = double]’:
+src/caffe/layers/image_seg_data_layer.cpp:269:1:   required from here
+src/caffe/layers/image_seg_data_layer.cpp:93:13: warning: unused variable ‘channels2’ [-Wunused-variable]

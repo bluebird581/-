@@ -1,0 +1,28 @@
+src/caffe/data_transformer.cpp: In instantiation of ‘void caffe::DataTransformer<Dtype>::TransformImgAndSeg(const std::vector<cv::Mat>&, caffe::Blob<Dtype>*, caffe::Blob<Dtype>*, int) [with Dtype = float]’:
+src/caffe/data_transformer.cpp:759:1:   required from here
+src/caffe/data_transformer.cpp:462:7: warning: variable ‘seg_height’ set but not used [-Wunused-but-set-variable]
+   int seg_height   = cv_img_seg[1].rows;
+       ^
+src/caffe/data_transformer.cpp:463:7: warning: variable ‘seg_width’ set but not used [-Wunused-but-set-variable]
+   int seg_width    = cv_img_seg[1].cols;
+       ^
+src/caffe/data_transformer.cpp:470:13: warning: unused variable ‘label_height’ [-Wunused-variable]
+   const int label_height   = transformed_label_blob->height();
+             ^
+src/caffe/data_transformer.cpp:471:13: warning: unused variable ‘label_width’ [-Wunused-variable]
+   const int label_width    = transformed_label_blob->width();
+             ^
+src/caffe/data_transformer.cpp: In instantiation of ‘void caffe::DataTransformer<Dtype>::TransformImgAndSeg(const std::vector<cv::Mat>&, caffe::Blob<Dtype>*, caffe::Blob<Dtype>*, int) [with Dtype = double]’:
+src/caffe/data_transformer.cpp:759:1:   required from here
+src/caffe/data_transformer.cpp:462:7: warning: variable ‘seg_height’ set but not used [-Wunused-but-set-variable]
+   int seg_height   = cv_img_seg[1].rows;
+       ^
+src/caffe/data_transformer.cpp:463:7: warning: variable ‘seg_width’ set but not used [-Wunused-but-set-variable]
+   int seg_width    = cv_img_seg[1].cols;
+       ^
+src/caffe/data_transformer.cpp:470:13: warning: unused variable ‘label_height’ [-Wunused-variable]
+   const int label_height   = transformed_label_blob->height();
+             ^
+src/caffe/data_transformer.cpp:471:13: warning: unused variable ‘label_width’ [-Wunused-variable]
+   const int label_width    = transformed_label_blob->width();
+             ^
